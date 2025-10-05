@@ -72,9 +72,6 @@ src/
 ### Available Scripts
 
 - `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner
-- `npm run build` - Builds the app for production
-- `npm run eject` - Ejects from Create React App (irreversible)
 
 ## 🎨 Customization
 
@@ -99,56 +96,3 @@ The application is fully responsive and optimized for:
 - Desktop (1200px+)
 - Tablet (768px - 1199px)
 - Mobile (320px - 767px)
-
-## 🚀 Deployment
-
-### Build for Production
-```bash
-npm run build
-```
-
-This creates a `build` folder with optimized production files.
-
-### Deploy to Netlify
-1. Build the project: `npm run build`
-2. Drag and drop the `build` folder to Netlify
-3. Configure custom domain if needed
-
-### Deploy to Vercel
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add some feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📞 Contact
-
-For questions or support, please contact:
-- Email: info@ieltsinstitute.com
-- Website: www.ieltsinstitute.com
-
-## 🙏 Acknowledgments
-
-- React team for the amazing framework
-- Create React App for the development setup
-- All contributors and testers
-
----
-
-**Note**: This is a frontend-only application. For a complete IELTS institute platform, consider adding:
-- User authentication
-- Payment integration
-- Backend API for user management
-- Database for storing user progress
-- Real-time chat for speaking practice
-- File upload for writing tasks
