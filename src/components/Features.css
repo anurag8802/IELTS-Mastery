@@ -1,0 +1,35 @@
+.features {
+    text-align: center;
+    padding: 4rem 5%;
+    background-color: #fff;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    color: #0b3d91;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background: #f4f7fb;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    color: #0078ff;
+    margin-bottom: 1rem;
+  }
+  
